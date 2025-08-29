@@ -2,6 +2,11 @@ export default function decorate(block) {
   const videoUrl = block.textContent.trim();
   block.textContent = '';
 
+  if (!videoUrl || !videoUrl.startsWith('http')) {
+    console.warn('Invalid or missing video URL:', videoUrl);
+    return;
+  }
+
   const video = document.createElement('video');
   video.src = videoUrl;
   video.autoplay = true;
