@@ -158,8 +158,6 @@
           }
         },
         {
-  "definitions": [
-    {
       "title": "Hero Video",
       "id": "herovideo",
       "plugins": {
@@ -174,8 +172,6 @@
         }
       }
     }
-  ]
-}
       ]
     }
   ]
