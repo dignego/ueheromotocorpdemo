@@ -1,5 +1,6 @@
 mountpoints:
-  /:
-    url: "https://author-p140426-e1433687.adobeaemcloud.com/bin/franklin.delivery/dignego/ueheromotocorpdemo/main"
-    type: "markup"
-    suffix: ".html"
+  /heromotocorpdemo/index:
+    url: https://author-p140426-e1433687.adobeaemcloud.com/bin/franklin.delivery/dignego/ueheromotocorpdemo/main
+    type: aem
+    credentials:
+      client_email: helix@adobe.com
