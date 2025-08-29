@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "herovideo"
+      "herovideo",
+      "herofeatures"
     ]
   },
   {
@@ -46,5 +47,18 @@
       "label": "Video Type",
       "type": "select",
       "options": ["mp4", "webm", "mov"]
-  }
+  },
+
+    {
+      "id" : "herofeatures",
+      "name": "featurePresence",
+      "label": "Has All Features",
+      "type": "boolean"
+    },
+    {
+      "name": "featureKeyword",
+      "label": "Feature Keyword",
+      "type": "text"
+    }
+
 ]
