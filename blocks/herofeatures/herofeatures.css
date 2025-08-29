@@ -1,0 +1,29 @@
+.herofeatures {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 24px;
+  z-index: 2;
+}
+
+.feature-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 16px 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  min-width: 120px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.feature-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.feature-label {
+  font-size: 14px;
+  font-weight: 500;
+}
