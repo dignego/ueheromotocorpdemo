@@ -215,8 +215,6 @@
       }
     ]
   },
-  {
-  "models": [
     {
       "id": "herovideo",
       "fields": [
@@ -255,8 +253,8 @@
           "label": "Thumbnail Images",
           "multi": true
         }
-      ]
-    }
+      
+    
   ]
 }
 ]
